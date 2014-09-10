@@ -16,6 +16,11 @@ USING_NS_CC;
 
 class BGLayer : public Layer {
     
+    
+    
+public:
+    
+    void makeBubble(float delta);
     virtual bool init();
     // implement the "static create()" method manually
     CREATE_FUNC(BGLayer);
